@@ -17,19 +17,19 @@ public class App {
         return opcao;
     }
 
-    static void relatorio(int quant,String nome[],String telefone[],int tipo[],int minutos[],double valordaconta[]){
+    static void relatorio(String nome[],String telefone[],int tipo[],int minutos[],double valordaconta[]){
         System.out.println("\t*** RELATORIO DE CLIENTES ***");
         System.out.println("\t\tCliente\tNome\tTelefone\tTipo\tMinutos\tValor da conta");
-        for(int i = 0; i < quant; i++){            
+        for(int i = 0; i < nome.length; i++){
             System.out.printf("\t\t%d\t%s\t%s\t%d\t%d\t%.2f\n",i,nome[i],telefone[i],tipo[i],minutos[i],valordaconta[i]);
         }
         System.out.println("\t*** FIM ***");
     }
 
-    static void receita_total(int quant,double valordaconta[]){
+    static void receita_total(double valordaconta[]){
         double soma=0;
 
-        for(int i = 0; i < quant; i++){
+        for(int i = 0; i < valordaconta.length; i++){
             soma += valordaconta[i];
         }
 
@@ -38,10 +38,10 @@ public class App {
         System.out.println("\t*** FIM ***");
     }
 
-    static void conta_barata(int quant,String nome[],String telefone[],double valordaconta[]){
+    static void conta_barata(String nome[],String telefone[],double valordaconta[]){
         int menor = 0;
 
-        for(int i = 0; i < quant; i ++){
+        for(int i = 0; i < nome.length; i ++){
             if(valordaconta[i] < valordaconta[menor])
                 menor = i;
         }
@@ -51,9 +51,9 @@ public class App {
         System.out.println("\t*** FIM ***");
     }
 
-    static void consumo_medio_tp1(int quant,int tipo[],int minutos[]){
+    static void consumo_medio_tp1(int tipo[],int minutos[]){
         int soma = 0, count = 0;
-        for(int i = 0; i < quant; i++){
+        for(int i = 0; i < tipo.length; i++){
             if(tipo[i] == 1){
                 soma += minutos[i];
                 count += 1;
@@ -64,9 +64,9 @@ public class App {
         System.out.println("\t*** FIM ***");
     }
 
-    static void consumo_acima(int quant,int minutos[]){
+    static void consumo_acima(int minutos[]){
         int count = 0;
-        for(int i = 0; i < quant; i ++){
+        for(int i = 0; i < minutos.length; i ++){
             if(minutos[i] >= 120)
                 count ++;
         }
@@ -75,17 +75,17 @@ public class App {
         System.out.println("\t*** FIM ***");
     }
     
-    static void porcentagem(int quant,int tipo[]){
+    static void porcentagem(int tipo[]){
         double count = 0;
-        for(int i = 0; i < quant; i ++){
+        for(int i = 0; i < tipo.length; i ++){
             if(tipo[i] == 2)
                 count ++;
         }
         System.out.println("\t*** PORCENTAGEM DE CLIENTE TIPO 2 ***");
-        System.out.printf("\t\tPorcentagem de clientes tipo 2: %.1f porcento\n", (double) (count/quant)*100);
+        System.out.printf("\t\tPorcentagem de clientes tipo 2: %.1f porcento\n", (double) (count/tipo.length)*100);
         System.out.println("\t*** FIM ***");
     }
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
         Scanner s = new Scanner(System.in);
         
         //  TAREFA 01
@@ -145,17 +145,17 @@ public class App {
 
             if(opcao >= 1 && opcao <= 7){
                 if(opcao == 1)
-                    relatorio(quant,nome,telefone,tipo,minutos,valordaconta);
+                    relatorio(nome,telefone,tipo,minutos,valordaconta);
                 if(opcao == 2)
-                    receita_total(quant,valordaconta);
+                    receita_total(valordaconta);
                 if(opcao == 3)
-                    conta_barata(quant,nome,telefone,valordaconta);
+                    conta_barata(nome,telefone,valordaconta);
                 if(opcao == 4)
-                    consumo_medio_tp1(quant,tipo,minutos);
+                    consumo_medio_tp1(tipo,minutos);
                 if(opcao == 5)
-                    consumo_acima(quant,minutos);
+                    consumo_acima(minutos);
                 if(opcao == 6)
-                    porcentagem(quant,tipo);
+                    porcentagem(tipo);
 
             }else{
                 System.out.println("\n\t*** OPÇÃO INVALIDA! ***\n");
@@ -163,8 +163,5 @@ public class App {
             System.out.println();
 
         }while(opcao != 7);
-
-
-
     }
 }
