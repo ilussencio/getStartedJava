@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-<<<<<<< HEAD
+
     public static String imprimirVetor(int vet[]){
         String string = "{";
         for(int i = 0; i < vet.length; i++){
@@ -49,5 +49,3 @@ public class Main {
         System.out.println("Produto : "+produto(v1, v2));
     }
 }
-=======
->>>>>>> c3ca5fbc9cf3085383f96bacbcbc02ffd6673d3d
