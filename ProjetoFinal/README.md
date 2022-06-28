@@ -1,18 +1,23 @@
-## Getting Started
+## Projeto Final
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**Materia:** Logica de programação
 
-## Folder Structure
+**Professor:** Bruno Queiroz Pinto
 
-The workspace contains two folders by default, where:
+**Curso:** Sistemas para Internet - IFTM
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Descritivo
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Atividades que precisam ser realizadas e pontuação correspondente:
+Tarefa 1: Preencher vetores com os dados dos clientes.
+Tarefa 2: Preencher a matriz de preços.
+Tarefa 3: Calcular o valor da conta de cada cliente. 
+Tarefa 4: Implementar no mínimo três opções do menu abaixo
+   1) Relatório de clientes
+   2) A receita total da empresa telefônica (soma de todas as contas).
+   3) Nome e telefone do cliente do qual a conta foi mais barata (supor não haver empates).
+   4) Média de pulsos consumidos por clientes de conta tipo 1.
+   5) A quantidade de clientes que consumiu acima de 120 pulsos.
+   6) A porcentagem de clientes que possuem conta tipo 2, em relação ao total de clientes.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Tarefa 5: Utilizar funções para modularizar o código, criar no mínimo 3 funções

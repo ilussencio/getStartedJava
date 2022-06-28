@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BEE-1072/BEE-1072.iml" filepath="$PROJECT_DIR$/BEE-1072/BEE-1072.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1073/BEE-1073.iml" filepath="$PROJECT_DIR$/BEE-1073/BEE-1073.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1074/BEE-1074.iml" filepath="$PROJECT_DIR$/BEE-1074/BEE-1074.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1170/BEE-1170.iml" filepath="$PROJECT_DIR$/BEE-1170/BEE-1170.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1171/BEE-1171.iml" filepath="$PROJECT_DIR$/BEE-1171/BEE-1171.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1172/BEE-1172.iml" filepath="$PROJECT_DIR$/BEE-1172/BEE-1172.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1173/BEE-1173.iml" filepath="$PROJECT_DIR$/BEE-1173/BEE-1173.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1174/BEE-1174.iml" filepath="$PROJECT_DIR$/BEE-1174/BEE-1174.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1175/BEE-1175.iml" filepath="$PROJECT_DIR$/BEE-1175/BEE-1175.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1177/BEE-1177.iml" filepath="$PROJECT_DIR$/BEE-1177/BEE-1177.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1178/BEE-1178.iml" filepath="$PROJECT_DIR$/BEE-1178/BEE-1178.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1180/BEE-1180.iml" filepath="$PROJECT_DIR$/BEE-1180/BEE-1180.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1181/BEE-1181.iml" filepath="$PROJECT_DIR$/BEE-1181/BEE-1181.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1182/BEE-1182.iml" filepath="$PROJECT_DIR$/BEE-1182/BEE-1182.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1183/BEE-1183.iml" filepath="$PROJECT_DIR$/BEE-1183/BEE-1183.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1184/BEE-1184.iml" filepath="$PROJECT_DIR$/BEE-1184/BEE-1184.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1185/BEE-1185.iml" filepath="$PROJECT_DIR$/BEE-1185/BEE-1185.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1186/BEE-1186.iml" filepath="$PROJECT_DIR$/BEE-1186/BEE-1186.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1187/BEE-1187.iml" filepath="$PROJECT_DIR$/BEE-1187/BEE-1187.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1188/BEE-1188.iml" filepath="$PROJECT_DIR$/BEE-1188/BEE-1188.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEE-1189/BEE-1189.iml" filepath="$PROJECT_DIR$/BEE-1189/BEE-1189.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FUNC03/FUNC03.iml" filepath="$PROJECT_DIR$/FUNC03/FUNC03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Principios_basicos/Principios_basicos.iml" filepath="$PROJECT_DIR$/Principios_basicos/Principios_basicos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjetoFinal/ProjetoFinal.iml" filepath="$PROJECT_DIR$/ProjetoFinal/ProjetoFinal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VET-04 - imprimir negativos/VET-04 - imprimir negativos.iml" filepath="$PROJECT_DIR$/VET-04 - imprimir negativos/VET-04 - imprimir negativos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VET06 - maior elemento menor que X/VET06 - maior elemento menor que X.iml" filepath="$PROJECT_DIR$/VET06 - maior elemento menor que X/VET06 - maior elemento menor que X.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VET07 - imprimir pares/VET07 - imprimir pares.iml" filepath="$PROJECT_DIR$/VET07 - imprimir pares/VET07 - imprimir pares.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/getStartedJava.iml" filepath="$PROJECT_DIR$/.idea/getStartedJava.iml" />
+    </modules>
+  </component>
+</project>
